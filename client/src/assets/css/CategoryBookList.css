@@ -1,0 +1,14 @@
+.book-lists-wrapper {
+    border: 2px solid #000;
+    border-color: #6341EF;
+    padding: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.book-lists {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 1em;
+}
+
+

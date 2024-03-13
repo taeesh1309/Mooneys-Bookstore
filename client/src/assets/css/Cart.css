@@ -1,0 +1,104 @@
+.page-title{
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: center;
+    color: var(--color-blueviolet);
+}
+
+.primary-button-checkout {
+    margin-left: 750px;
+    padding: var(--padding-5xs) var(--padding-xl);
+    position: absolute;
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #6341EF;
+    align-items: center;
+    cursor:pointer;
+
+}
+
+.primary-button-checkout:hover{
+
+    background-color: #D444B4;
+
+}
+
+.secondary-button-continue {
+    margin-left: 150px;
+    padding: var(--padding-5xs) var(--padding-xl);
+    position: absolute;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #D444B4;
+    align-items: center;
+    cursor:pointer;
+
+
+}
+
+.secondary-button-continue:hover{
+    background-color: #6341EF;
+
+}
+
+.tertiary-button-clear {
+    margin-left: 880px;
+    margin-top: 100px;
+    padding: var(--padding-5xs) var(--padding-xl);
+    position: absolute;
+    color: white;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #D444B4;
+    align-items: center;
+    cursor:pointer;
+
+
+}
+
+.tertiary-button-clear:hover{
+    background-color: #6341EF;
+
+}
+
+.default-message{
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    margin-top: 10em;
+    text-align: center;
+    color: var(--color-blueviolet);
+}
+
+.cart-total{
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: center;
+    color: var(--color-blueviolet);
+}
+
+.cart-quantity{
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: center;
+    color: var(--color-blueviolet);
+}

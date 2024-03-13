@@ -1,0 +1,223 @@
+
+.home-pages  {
+    display: flex;
+
+}
+
+.welcome-text {
+    width: 30em;
+    background-color: var(--neutral-color);
+    color: whitesmoke;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.flow-content > * + * {
+    margin-top: 1rem;
+}
+
+/*
+  Giving various sections of your page this utility class
+  will ensure a nice padding around the contents.
+*/
+.container {
+    padding: 2rem;
+}
+.middle {
+    position: absolute;
+    top: 6px;
+    left: 393px;
+    width: 499px;
+    height: 11px;
+}
+.icon,
+.label {
+    position: relative;
+}
+.icon {
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.label {
+    letter-spacing: 1.25px;
+    line-height: 20px;
+}
+.button-contained {
+    border-radius: var(--br-lg);
+    background-color: var(--color-blueviolet);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-xl);
+    gap: var(--gap-5xs);
+    z-index: 0;
+}
+.vector-icon {
+    position: absolute;
+    margin: 0 !important;
+    top: 7px;
+    left: 17px;
+    width: 25px;
+    height: 22.22px;
+    z-index: 1;
+}
+.add-to-cart-button {
+    position: absolute;
+    top: 13px;
+    left: 930px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--on-primary);
+}
+.avatar-indicator {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+.body,
+.subtitle {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 15px;
+    font-weight: 500;
+}
+.body {
+    letter-spacing: 0.25px;
+    font-weight: 300;
+}
+.avatar,
+.text {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.text {
+    display: none;
+    flex-direction: column;
+}
+.avatar {
+    position: absolute;
+    top: 17px;
+    left: 1063px;
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-5xs);
+    font-size: var(--body-4-size);
+}
+.discover-mooneys {
+    margin: 0;
+}
+.discover-mooneys-where-container {
+    position: absolute;
+    top: 47px;
+    left: 720px;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    width: 439px;
+    height: 65px;
+}
+.ny-times-best-seller,
+.the-maid-is-container,
+.use-code-container {
+    position: absolute;
+    font-weight: 600;
+    display: inline-block;
+    width: 165px;
+}
+.use-code-container {
+    top: 359px;
+    left: 498px;
+    white-space: pre-wrap;
+    height: 61px;
+}
+.ny-times-best-seller,
+.the-maid-is-container {
+    height: 65px;
+}
+.the-maid-is-container {
+    top: 352px;
+    left: 972px;
+    white-space: pre-wrap;
+}
+.ny-times-best-seller {
+    top: 359px;
+    left: 731px;
+}
+.image-1-icon,
+.image-2-icon,
+.image-3-icon {
+    position: absolute;
+    top: 141px;
+    left: 508px;
+    width: 117px;
+    height: 187px;
+    object-fit: cover;
+}
+.image-2-icon,
+.image-3-icon {
+    left: 731px;
+    width: 124px;
+}
+.image-3-icon {
+    left: 972px;
+    width: 123px;
+}
+.welcome-to-mooneys {
+    position: absolute;
+    top: 141px;
+    left: 51px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    width: 398px;
+    height: 480px;
+}
+.desktop-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+}
+.welcome-page {
+    position: relative;
+    height: 50px;
+    text-align: left;
+    font-size: var(--button-2-size);
+    color: var(--on-surface);
+    font-family: var(--body-4);
+}
+
+.primary-button {
+    margin-left: 150px;
+    margin-top: 50px;
+    padding: var(--padding-5xs) var(--padding-xl);
+    position: absolute;
+    color: white;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #6341EF;
+    align-items: center;
+    cursor:pointer;
+
+}
+
+.primary-button:hover{
+
+    background-color: #D444B4;
+
+}

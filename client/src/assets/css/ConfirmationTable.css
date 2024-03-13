@@ -1,0 +1,35 @@
+.confirmation_table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.confirmation_td {
+    padding: 0.8em 1em;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.confirmation_tr:nth-child(even) > td {
+    background-color: #f2f2f2;
+}
+
+.confirmation_table thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.confirmation_table tfoot td {
+    font-weight: bold;
+    background-color: #ddd;
+    text-align: right;
+}
+
+.confirmation_table .total-row td {
+    font-size: 1.1em;
+    background-color: #eee;
+}
